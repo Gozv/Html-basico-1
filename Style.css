@@ -1,0 +1,25 @@
+#Titulo {
+    border: solid 4px black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-right: 673px;
+    margin-left: 600px;
+    padding: 2px;
+    background-color: brown;
+  }
+  .fondo {
+    background-color: red;
+    font-size: 50px;
+    font-style: oblique;
+    margin: 0px 350px 0px 0px;
+  }
+  .Ingredientes1 {
+    border: solid 2px green;
+    display:inline-block;
+  }
+  .Preparacion1 {
+    margin-top: 5px;
+    border:solid 2px yellowgreen;
+  }
+  .tamañoletra {
+    font-size: 25px;
+  }
