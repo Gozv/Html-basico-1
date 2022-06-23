@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora funcional</title>
+    <link href="calculadoraf.css" rel="stylesheet">
+    
+</head>
+<body>
+  <h1>Calculadora Equipo 9</h1>
+  
+    <div class="contenedor">
+      <div class="calculadora">
+        <div class="pantalla" id="letras">
+        </div>
+        <div class="botones" >
+          <input type="button" value="C" onclick="cleanDisplay()" class="dobleesp">
+          <input type="button" value="&#129044" onclick="" class="flechita">
+          <input type="button" value="÷" onclick="dividir()" class="operadoresq">
+          <input type="button" value="7" onclick="addNumDisplay('7')" class="numero">
+          <input type="button" value="8" onclick="addNumDisplay('8')" class="numero">
+          <input type="button" value="9" onclick="addNumDisplay('9')" class="numero">
+          <input type="button" value="x" onclick="multiplicar()" class="operador">
+          <input type="button" value="4" onclick="addNumDisplay('4')" class="numero">
+          <input type="button" value="5" onclick="addNumDisplay('5')" class="numero">
+          <input type="button" value="6" onclick="addNumDisplay('6')" class="numero">
+          <input type="button" value="-" onclick="restar()" class="operador">
+          <input type="button" value="1" onclick="addNumDisplay('1')" class="numero">
+          <input type="button" value="2" onclick="addNumDisplay('2')" class="numero">
+          <input type="button" value="3" onclick="addNumDisplay('3')" class="numero">
+          <input type="button" value="+" onclick="sumar()" class="operador">
+          <input type="button" value="0" onclick="addNumDisplay('0')" class="numeroesq">
+          <input type="button" value="." onclick="addNumDisplay('.')" class="numero">
+          <input type="button" value="=" onclick="operandoB_mas_resultado_final()" class="dobleoperador">
+        </div>
+      </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
